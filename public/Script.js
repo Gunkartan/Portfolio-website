@@ -10,7 +10,7 @@ function Calculate_age(Birth) {
 }
 
 function Update_age() {
-    const Birth = new Date('2005-04-24');
+    const Birth = new Date('2006-04-22');
     const Age_element = document.getElementById('Age');
     const Age = Calculate_age(Birth);
     Age_element.textContent = Age + ' years old';
