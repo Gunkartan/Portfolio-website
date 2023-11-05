@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="Portfolio_website.css">
+    <script src="https://kit.fontawesome.com/14c705502c.js" crossorigin="anonymous"></script>
+    <title>Gunn's</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="Portfolio_website.js" defer></script>
+</head>
+<html>
+
+<body>
+    <div class="Top"></div>
+    <nav class="navbar mb-6">
+        <div class="navbar-brand">
+            <h1 class="navbar-item has-text-weight-bold title Title">Gunn's</h1>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-end">
+                <nav class="breadcrumb navbar-item has-bullet-separator">
+                    <ul>
+                        <li>
+                            <h1 class="has-text-weight-bold mx-3 Menu Go_to_about_me">About me</h1>
+                        </li>
+                        <li>
+                            <h1 class="has-text-weight-bold mx-3 Menu Go_to_education">Education</h1>
+                        </li>
+                        <li>
+                            <h1 class="has-text-weight-bold mx-3 Menu Go_to_skills">Skills</h1>
+                        </li>
+                        <li>
+                            <h1 class="has-text-weight-bold mx-3 Menu Go_to_contacts">Contacts</h1>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </nav>
+    <button class="button is-rounded To_the_top Display_to_the_top">
+        <i class="fa-solid fa-chevron-up fa-bounce is-centered"></i>
+    </button>
+    <div class="container mb-6 pb-6">
+        <div class="columns mb-6 Landing_page_columns">
+            <div class="column has-text-centered Landing_page_picture_column">
+                <img src="Assets/A picture of me.jpg" alt="A picture of me" class="Landing_page_picture">
+            </div>
+            <div class="column Landing_page_content_column">
+                <div class="content Landing_page_content">
+                    <h1 style="color: #0496c7;">Greetings, Gunn here</h1>
+                    <p>I'm a website developer and application development enthusiast.</p>
+                    <button class="button has-text-weight-bold is-rounded See_more">See more</button>
+                </div>
+            </div>
+        </div>
+        <hr class="About_me_section">
+        <h1 class="mb-2 title">About me</h1>
+        <p class="mb-6">A computer engineering student who likes website and application development. I do both frontend and backend.</p>
+        <div class="content has-text-centered mb-6">
+            <h1 class="mb-6" style="color: #0496c7;">General information</h1>
+            <div class="columns is-centered">
+                <div class="column is-2 mx-3 Column_decoration">
+                    <i class="fa-solid fa-user fa-2xl my-6"></i>
+                    <p>Karun Tancharoen</p>
+                </div>
+                <div class="column is-2 mx-3 Column_decoration">
+                    <i class="fa-solid fa-cake-candles fa-2xl my-6"></i>
+                    <p>24 April 2005</p>
+                </div>
+                <div class="column is-2 mx-3 Column_decoration">
+                    <i class="fa-solid fa-calendar-xmark fa-2xl my-6"></i>
+                    <p id="Age"></p>
+                </div>
+                <div class="column is-2 mx-3 Column_decoration">
+                    <i class="fa-solid fa-globe fa-2xl my-6"></i>
+                    <p>Bangkok, Thailand</p>
+                </div>
+            </div>
+            <h1 class="mb-6" style="color: #0496c7;">My hobbies</h1>
+            <div class="columns is-centered">
+                <div class="column is-2 mx-3 Column_decoration">
+                    <i class="fa-solid fa-gamepad fa-2xl fa-beat my-6"></i>
+                    <p>Play computer games</p>
+                    <ul class="has-text-left Games">
+                        <li>Elden Ring</li>
+                        <li>God of War</li>
+                        <li>Sekiro</li>
+                    </ul>
+                </div>
+                <div class="column is-2 mx-3 Column_decoration">
+                    <i class="fa-solid fa-language fa-2xl my-6"></i>
+                    <p>Learn Japanese</p>
+                </div>
+                <div class="column is-2 mx-3 Column_decoration">
+                    <i class="fa-solid fa-book-open-reader fa-2xl fa-beat my-6"></i>
+                    <p>Read mangas</p>
+                    <ul class="has-text-left Mangas">
+                        <li>Sakamoto Days</li>
+                        <li>Jigoku Raku</li>
+                        <li>Jujutsu Kaisen</li>
+                    </ul>
+                </div>
+                <div class="column is-2 mx-3 Column_decoration">
+                    <i class="fa-solid fa-camera fa-2xl my-6"></i>
+                    <p>Photography</p>
+                </div>
+            </div>
+        </div>
+        <hr class="Education_section">
+        <h1 class="title">Education</h1>
+        <div class="content mb-6">
+            <div class="columns is-centered mb-6">
+                <div class="column has-text-right is-2">
+                    <p class="has-text-weight-bold">Tantawan Kindergarten</p>
+                </div>
+                <div class="column has-text-centered is-2">
+                    <i class="fa-solid fa-arrow-right Tantawan_arrow"></i>
+                </div>
+                <div class="column is-2 Tantawan_details">
+                    <ul class="mt-0">
+                        <li>Kindergarten</li>
+                        <ul>
+                            <li>2008 - 2010</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="columns is-centered mb-6">
+                <div class="column has-text-right is-2">
+                    <p class="has-text-weight-bold">Roong Aroon School</p>
+                </div>
+                <div class="column has-text-centered is-2">
+                    <i class="fa-solid fa-arrow-right Roong_aroon_arrow"></i>
+                </div>
+                <div class="column is-2 Roong_aroon_details">
+                    <ul class="mt-0">
+                        <li>Kindergarten</li>
+                        <ul>
+                            <li>2010 - 2011</li>
+                        </ul>
+                        <li>Elementary school</li>
+                        <ul>
+                            <li>2011 - 2017</li>
+                        </ul>
+                        <li>High school</li>
+                        <ul>
+                            <li>GPA: 3.80</li>
+                            <li>2017 - 2023</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="columns is-centered">
+                <div class="column has-text-right is-2">
+                    <p class="has-text-weight-bold">King Mongkut's University of Technology Thonburi</p>
+                </div>
+                <div class="column has-text-centered is-2">
+                    <i class="fa-solid fa-arrow-right Kmutt_arrow"></i>
+                </div>
+                <div class="column is-2 Kmutt_details">
+                    <ul class="mt-0">
+                        <li>Bachelor's degree</li>
+                        <ul>
+                            <li>Faculty of Engineering</li>
+                            <li>Department of Computer Engineering</li>
+                            <li>2023 - present</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="Skills_section">
+        <h1 class="title">Skills</h1>
+        <div class="content">
+            <div class="columns has-text-centered is-centered">
+                <div class="column is-2 mr-6">
+                    <p class="has-text-weight-bold">Hard skills</p>
+                </div>
+                <div class="column is-2 mx-6">
+                    <p class="has-text-weight-bold">Soft skills</p>
+                </div>
+                <div class="column is-2 ml-6">
+                    <p class="has-text-weight-bold">Languages</p>
+                </div>
+            </div>
+            <div class="columns has-text-centered is-centered">
+                <div class="column is-2 mr-6">
+                    <i class="fa-solid fa-arrow-down Hard_skills_arrow"></i>
+                </div>
+                <div class="column is-2 mx-6">
+                    <i class="fa-solid fa-arrow-down Soft_skills_arrow"></i>
+                </div>
+                <div class="column is-2 ml-6">
+                    <i class="fa-solid fa-arrow-down Languages_arrow"></i>
+                </div>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-2 mr-6 Hard_skills">
+                    <ul class="mt-0">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bulma</li>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>C</li>
+                    </ul>
+                </div>
+                <div class="column is-2 mx-6 Soft_skills">
+                    <ul class="mt-0">
+                        <li>Design thinking</li>
+                        <li>Leadership</li>
+                        <li>Presentation</li>
+                        <li>Self-learner</li>
+                        <li>Public speaking</li>
+                    </ul>
+                </div>
+                <div class="column is-2 ml-6 Languages">
+                    <ul class="mt-0">
+                        <li>Thai (native)</li>
+                        <li>English (fluent)</li>
+                        <li>Japanese (learning)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer has-text-centered Footer">
+        <div class="content">
+            <p class="mb-6">This portfolio website was created by Karun Tancharoen. My contacts are below.</p>
+            <div class="columns is-centered">
+                <div class="column is-3 Contacts_column" style="width: fit-content">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p class="Mail">karun.tanc@mail.kmutt.ac.th</p>
+                </div>
+                <div class="column is-3 Contacts_column" style="width: fit-content">
+                    <i class="fa-solid fa-phone"></i>
+                    <p class="Phone">0909377719</p>
+                </div>
+                <div class="column is-3 Contacts_column" style="width: fit-content">
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <a href="https://www.instagram.com/gunn_karun/#" class="Instagram" target="_blank">gunn.karun</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

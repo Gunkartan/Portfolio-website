@@ -1,0 +1,210 @@
+body {
+    background-color: #1a202c;
+    color: White;
+    font-family: 'Poppins';
+}
+
+footer {
+    color: Black;
+}
+
+.Title {
+    color: #0496c7;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #1a202c;
+    position: sticky;
+    top: 0;
+}
+
+.Menu {
+    color: White;
+}
+
+.Menu:hover {
+    cursor: pointer;
+    color: #0496c7;
+    transition: 0.3s;
+}
+
+.To_the_top {
+    background-color: #006ca5;
+    border: none;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    width: 15px;
+}
+
+.Display_to_the_top {
+    display: none;
+}
+
+.fa-chevron-up {
+    color: Black;
+}
+
+.Landing_page_columns {
+    height: 550px;
+}
+
+.Landing_page_picture {
+    border-radius: 100%;
+    height: 360px;
+    object-fit: cover;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 360px;
+}
+
+.Landing_page_content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.See_more {
+    background-color: #006ca5;
+    border: none;
+    color: Black;
+    font-family: 'Poppins';
+}
+
+.See_more:hover {
+    background-color: #006ca5;
+    border: none;
+    color: Black;
+}
+
+.title {
+    color: #0496c7;
+}
+
+.Column_decoration {
+    border: 2px solid #04bade;
+    border-radius: 15px;
+}
+
+.fa-beat:hover {
+    cursor: pointer;
+}
+
+.Games {
+    display: none;
+}
+
+.Games.is-active {
+    display: block;
+}
+
+.Mangas {
+    display: none;
+}
+
+.Mangas.is-active {
+    display: block;
+}
+
+.Tantawan_details {
+    border: 2px solid #66ccff;
+    border-radius: 15px;
+}
+
+.Tantawan_arrow {
+    color: #66ccff;
+}
+
+.Roong_aroon_details {
+    border: 2px solid #3399ff;
+    border-radius: 15px;
+}
+
+.Roong_aroon_arrow {
+    color: #3399ff;
+}
+
+.Kmutt_details {
+    border: 2px solid #0066cc;
+    border-radius: 15px;
+}
+
+.Kmutt_arrow {
+    color: #0066cc;
+}
+
+.Hard_skills_arrow {
+    color: #0077b6;
+}
+
+.Hard_skills {
+    border: 2px solid #0077b6;
+    border-radius: 15px;
+}
+
+.Soft_skills_arrow {
+    color: #4d88e6;
+}
+
+.Soft_skills {
+    border: 2px solid #4d88e6;
+    border-radius: 15px;
+}
+
+.Languages_arrow {
+    color: #3399ff;
+}
+
+.Languages {
+    border: 2px solid #3399ff;
+    border-radius: 15px;
+}
+
+.Mail {
+    display: inline;
+}
+
+.Phone {
+    display: inline;
+}
+
+.Instagram {
+    display: inline;
+}
+
+.Instagram:hover {
+    color: #0496c7;
+    transition: 0.3s;
+}
+
+.About_me_section {
+    margin-bottom: 60px;
+}
+
+.Education_section {
+    margin-bottom: 60px;
+}
+
+.Skills_section {
+    margin-bottom: 60px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #d3d3d3;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a1a1a1;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #808080;
+}
